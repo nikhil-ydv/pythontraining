@@ -1,4 +1,4 @@
-#1
+# 1
 
 str1 = "Nikhil"
 ch = input("Enter character to remove  \n")
