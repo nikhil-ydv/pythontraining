@@ -5,7 +5,7 @@ ch = input("Enter character to remove  \n")
 str2 = str1.replace(ch,"")
 print (str2)
 
-#2
+# 2
 
 str1 = "Nikhil"
 ch = input("Enter character to count  \n")
@@ -15,7 +15,7 @@ for i in range(len(str1)):
         count+=1
 print(count)
 
-#3 
+# 3 
 
 str1 = "Nikhil"
 str2 = "iinlkh"
@@ -35,7 +35,7 @@ if(len(str1) == len(str2)):
 else:
     print(str1 + " and " + str2 + " are not anagram.")
 
-#4
+# 4
 
 str1 = "war"
 str2 = "raw"
@@ -47,7 +47,7 @@ if(str2==str3):
 else:
     print("not a palindrome")
 
-#5
+# 5
 
 vowel=['a','e','i','o','u']
 ch = input("Enter character to check \n")
@@ -57,7 +57,7 @@ if ch in vowel:
 else:
     print("character is a consonant")
 
-#6
+# 6
 
 num = input("Your Input\n")
 if ord(num) in range(48,58):
@@ -65,14 +65,14 @@ if ord(num) in range(48,58):
 else:
     print("not a digit")
 
-#7
+# 7
 
 num = input("Your Input\n")
 def isdigit(num):
     return "It's a digit" if ord(num)>=48 and ord(num) <=57 else "Not a digit"
 print(isdigit(num))
 
-#8
+# 8
 
 str1 = input("Your string\n")
 chr = input("Enter character to be used for replacing\n")
@@ -86,14 +86,14 @@ for s in list1:
         str1 = str1 + s
 print(str1)
 
-#9
+# 9
 
 str1 = input("Your string\n")
 chr = input("Enter character to be used for replacing\n")
 str1 = str1.replace(" ",chr)
 print(str1)
 
-#10
+# 10
 
 from curses.ascii import isupper
 
@@ -107,7 +107,7 @@ for i in range(len(list1)):
     str1 = str1 + list1[i]
 print(str1)
 
-#11
+# 11
 
 from curses.ascii import islower
 
@@ -122,14 +122,14 @@ for i in range(len(list1)):
     str1 = str1 + list1[i]
 print(str1)
 
-#12
+# 12
 
 arr = [1,2,3,4,5,6,7,8,10]
 for i in range(1,11):
     if i not in arr:
         print(i)
 
-#13
+# 13
 
 from collections import Counter
 
@@ -139,7 +139,7 @@ d = Counter(li)
 repeated_list = list([num for num in d if d[num]>1])
 print("Duplicate integers: ",repeated_list)
 
-#14
+# 14
 
 def sum_pair(arr,n):
     count=0 
@@ -153,7 +153,7 @@ arr=[1, 5, 7, -1, 3, 3]
 n=6 
 sum_pair(arr,n)
 
-#15
+# 15
 
 def arrEqual(arr1,arr2):
     if(len(arr1)==len(arr2)):
@@ -164,7 +164,7 @@ arr1=[1,2,3,4]
 arr2=[5,6,7,8] 
 print(arrEqual(arr1,arr2))
 
-#16
+# 16
 
 arr=[1,9,8,2,4,5,105,17,0]
 arr.sort()
@@ -172,27 +172,27 @@ print("Smallest and Largest in array:\n")
 print(arr[0])
 print(arr[len(arr)-1])
 
-#17
+# 17
 
 arr=[1,9,8,2,4,5,105,17,0]
 arr.sort()
 print("Second Largest in array:\n")
 print(arr[len(arr)-2])
 
-#18
+# 18
 
 arr=[1,9,8,2,4,5,105,17,0]
 arr.sort(reverse = True)
 print("Top 2 in array:\n")
 print(arr[0],arr[1])
 
-#19 Remove Duplicates
+# 19 Remove Duplicates
 
 li = [11,1,4,5,2,6,7,9,3,5,3,5,9,8,11]
 unique = set(li)
 print(unique)
 
-#20
+# 20
 
 arr=[1,9,8,2,4,5,105,17,0]
 arr.sort(reverse = True)
@@ -205,7 +205,7 @@ arr=[1,9,8,2,4,5,105,17,0]
 rev=arr[::-1]
 print(rev)
 
-#22 reverse array using two ways
+# 22 reverse array using two ways
 
 arr=[1,9,8,2,4,5,105,17,0]
 rev=arr[::-1]
@@ -215,12 +215,12 @@ arr.reverse()
 print("using reverse()")
 print(arr)
 
-#23 length of array
+# 23 length of array
 
 arrpy = [1,2,3,4]
 print(len(arrpy))
 
-#24 Insert at end in array
+# 24 Insert at end in array
 
 arrpy = [1,2,3,4]
 arrpy.append(19)
